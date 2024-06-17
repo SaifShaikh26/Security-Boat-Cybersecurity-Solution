@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <ul>
+                <li><a href="#screen-management">Screen Management</a></li>
+                <li><a href="#booking-management">Booking Management</a></li>
+                <li><a href="#food-menu-management">Food Menu Management</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="screen-management">
+            <h2>Screen Management</h2>
+            <form id="add-screen-form">
+                <label for="screen-name">Screen Name:</label>
+                <input type="text" id="screen-name" name="screen-name" required>
+                <label for="seat-count">Number of Seats:</label>
+                <input type="number" id="seat-count" name="seat-count" required>
+                <button type="submit">Add Screen</button>
+            </form>
+            <div id="screen-layout-designer"></div>
+        </section>
+        <section id="booking-management">
+            <h2>Booking Management</h2>
+            <div id="booking-calendar"></div>
+            <div id="booking-details"></div>
+        </section>
+        <section id="food-menu-management">
+            <h2>Food Menu Management</h2>
+            <form id="add-menu-item-form">
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name" required>
+                <label for="item-category">Category:</label>
+                <input type="text" id="item-category" name="item-category" required>
+                <label for="item-price">Price:</label>
+                <input type="number" id="item-price" name="item-price" required>
+                <label for="item-image">Image:</label>
+                <input type="file" id="item-image" name="item-image" accept="image/*" required>
+                <button type="submit">Add Item</button>
+            </form>
+            <div id="menu-items-list"></div>
+        </section>
+        <section id="notifications">
+            <h2>Notifications</h2>
+            <div id="notification-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cinema Admin Panel</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

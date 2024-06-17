@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#screen-layout-designer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+#booking-calendar {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+}
+
+#menu-items-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.screen {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.seats-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+#notification-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 100px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.notification.success {
+    background-color: #e0f7e0;
+    border-color: #a5d6a7;
+}
+
+.notification.error {
+    background-color: #fbe9e9;
+    border-color: #e57373;
+}
